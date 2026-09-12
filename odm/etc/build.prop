@@ -1,0 +1,45 @@
+####################################
+# from generate-common-build-props
+# These properties identify this partition image.
+####################################
+ro.product.odm.brand=Sony
+ro.product.odm.device=XQ-FE
+ro.product.odm.manufacturer=Sony
+ro.product.odm.model=XQ-FE54
+ro.product.odm.name=XQ-FE54_EEA
+ro.odm.product.cpu.abilist=arm64-v8a
+ro.odm.product.cpu.abilist32=
+ro.odm.product.cpu.abilist64=arm64-v8a
+ro.odm.build.date=Sun Sep  6 03:38:07 UTC 2026
+ro.odm.build.date.utc=1788665887
+ro.odm.build.fingerprint=Sony/XQ-FE54_EEA/XQ-FE:16/72.1.A.2.198/072001A002019801752368871:user/release-keys
+ro.odm.build.id=BP4A.251205.006
+ro.odm.build.tags=release-keys
+ro.odm.build.type=userdebug
+ro.odm.build.version.incremental=12a98634f3
+ro.odm.build.version.release=16
+ro.odm.build.version.release_or_codename=16
+ro.odm.build.version.sdk=36
+ro.odm.build.version.sdk_full=36.1
+####################################
+# from device/sony/pdx257/odm.prop
+####################################
+# Audio
+ro.vendor.qti.va_odm.support=1
+vendor.audio.usb.force.deep_buffer=true
+# Bluetoooth
+persist.vendor.qcom.bluetooth.aac_abr_support=true
+# Graphics
+ro.surface_flinger.enable_frame_rate_override=0
+# LMK
+ro.lmk.critical_available_threshold=18
+# RIL
+telephony.lteOnCdmaDevice=0
+# SKU
+ro.product.property_source_order=odm,product,vendor,system_ext,system
+import /odm/etc/customization/${ro.boot.hardware.sku}/config.prop
+####################################
+# from variable PRODUCT_ODM_PROPERTIES
+####################################
+# end of file
+
