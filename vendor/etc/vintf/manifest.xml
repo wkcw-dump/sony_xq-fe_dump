@@ -1,0 +1,46 @@
+<!--
+    Input:
+        hardware/qcom-caf/sm8450-6.6/audio/primary-hal/configs/parrot/manifest_audio_qti_services.xml
+        device/sony/pdx257/vintf/manifest_parrot.xml
+        device/sony/pdx257/vintf/manifest.xml
+-->
+<manifest version="9.0" type="device" target-level="202404">
+    <hal format="aidl">
+        <name>android.hardware.gatekeeper</name>
+        <fqname>IGatekeeper/default</fqname>
+    </hal>
+    <hal format="aidl">
+        <name>android.hardware.secure_element</name>
+        <fqname>ISecureElement/eSE1</fqname>
+    </hal>
+    <hal format="aidl">
+        <name>vendor.qti.hardware.ListenSoundModelAidl</name>
+        <fqname>IListenSoundModel/default</fqname>
+    </hal>
+    <hal format="aidl">
+        <name>vendor.qti.hardware.agm</name>
+        <fqname>IAGM/default</fqname>
+    </hal>
+    <hal format="aidl">
+        <name>vendor.qti.hardware.pal</name>
+        <fqname>IPAL/default</fqname>
+    </hal>
+    <hal format="aidl">
+        <name>vendor.qti.hardware.wifidisplaysession_aidl</name>
+        <fqname>IWifiDisplaySession/default</fqname>
+        <fqname>IWifiDisplaySessionAudioTrack/default</fqname>
+        <fqname>IWifiDisplaySessionImageTrack/default</fqname>
+        <fqname>IWifiDisplaySessionVideoTrack/default</fqname>
+    </hal>
+    <hal format="aidl">
+        <name>vendor.semc.hardware.spc</name>
+        <fqname>ISpc/default</fqname>
+    </hal>
+    <hal format="aidl">
+        <name>vendor.somc.hardware.security.aidlsecd</name>
+        <fqname>IDeviceSecurity/default</fqname>
+    </hal>
+    <sepolicy>
+        <version>202504</version>
+    </sepolicy>
+</manifest>
