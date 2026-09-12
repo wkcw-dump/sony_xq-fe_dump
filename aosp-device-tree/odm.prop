@@ -1,0 +1,18 @@
+# Audio
+vendor.audio.usb.force.deep_buffer=true
+
+# Bluetooth
+persist.vendor.qcom.bluetooth.aac_abr_support=true
+
+# Display
+ro.surface_flinger.enable_frame_rate_override=0
+
+# Radio
+telephony.lteOnCdmaDevice=0
+
+# Miscellaneous
+ro.lmk.critical_available_threshold=18
+ro.odm.build.version.sdk_full=36.1
+ro.product.property_source_order=odm,product,vendor,system_ext,system
+ro.vendor.qti.va_odm.support=1
+

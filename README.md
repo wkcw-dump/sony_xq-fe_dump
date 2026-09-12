@@ -1,0 +1,20 @@
+## XQ-FE54_EEA-user 16 72.1.A.2.198 072001A002019801752368871 release-keys
+- Manufacturer: sony
+- Platform: parrot
+- Codename: XQ-FE
+- Brand: Sony
+- Flavor: lineage_pdx257-userdebug
+- Release Version: 16
+- Kernel Version: 6.6.142
+- Id: BP4A.251205.006
+- Incremental: 12a98634f3
+- Tags: release-keys
+- CPU Abilist: arm64-v8a
+- A/B Device: true
+- Treble Device: true
+- Locale: en-US
+- Screen Density: 420
+- Fingerprint: Sony/XQ-FE54_EEA/XQ-FE:16/72.1.A.2.198/072001A002019801752368871:user/release-keys
+- OTA version: 
+- Branch: XQ-FE54_EEA-user-16-72.1.A.2.198-072001A002019801752368871-release-keys
+- Repo: sony_xq-fe_dump
